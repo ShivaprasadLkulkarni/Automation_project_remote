@@ -36,5 +36,29 @@ public static void main(String[] args) {
 //	</dependency>
 //	   </dependencies>
 //	</project>
+	  
+//	 office use
+//	  <project xmlns="http://maven.apache.org/POM/4.0.0" 
+//		         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+//		         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+//		    <modelVersion>4.0.0</modelVersion>
+//
+//		    <groupId>practises</groupId>
+//		    <artifactId>practises</artifactId>
+//		    <version>0.0.1-SNAPSHOT</version>
+//
+//		    <!-- Add dependencies -->
+//		    <dependencies>
+//		  
+//		        
+//		        <dependency>
+//		            <groupId>JavaProject</groupId>
+//		            <artifactId>Project</artifactId>
+//		            <version>0.0.1-SNAPSHOT</version>
+//		        </dependency>
+//		       
+//		    </dependencies>
+//		</project>
+
 }
 }
