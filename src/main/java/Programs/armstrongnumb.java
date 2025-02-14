@@ -8,7 +8,7 @@ public class armstrongnumb {
 		
 	Scanner sc = new Scanner(System.in);
 	
-	System.out.println("Enter a number which you want whether it is armstrobg or not : ");
+	System.out.println("Enter a numbers which you want whether it is armstrobg or not : ");
 	int n = sc.nextInt();
 	int a=n;
 	int b=0;
@@ -20,9 +20,9 @@ public class armstrongnumb {
 		c=c+b*b*b;
 	}
 	if(c==n) {
-		System.out.println("Number : "+n+" is an armstrong number ");
+		System.out.println("Numberss : "+n+" is an armstrong number ");
 	}else {
-		System.out.println("Number : "+n+" is not an armstrong number ");
+		System.out.println("Numberss : "+n+" is not an armstrong number ");
 
 	}
 
