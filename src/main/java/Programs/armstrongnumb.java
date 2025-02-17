@@ -13,16 +13,11 @@ public class armstrongnumb {
 	int a=n;
 	int b=0;
 	int c=0;
-	
-	while(a!=0) {
-		b=a%10;
-		a=a/10;
-		c=c+b*b*b;
-	}
+
 	if(c==n) {
-		System.out.println("Numberss : "+n+" is an armstrong number ");
+		System.out.println("Numbers : "+n+" is an armstrong number ");
 	}else {
-		System.out.println("Numberss : "+n+" is not an armstrong number ");
+		System.out.println("Numbers : "+n+" is not an armstrong number ");
 
 	}
 
