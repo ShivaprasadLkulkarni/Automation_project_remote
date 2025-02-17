@@ -10,9 +10,9 @@ public static void main(String[] args) {
 	sc.close();
 	
 	if (ispalindromes(input)) {
-		System.out.println("its palindrome");
+		System.out.println("its palindromes");
 	} else {
-		System.out.println("not an palindrome");
+		System.out.println("not an palindromes");
 	}
 	
 	
