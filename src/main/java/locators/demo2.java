@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class demo2 {
 public static void main(String[] args) {
 	
-	System.setProperty("webdriver.chrome.driver", "C:\\\\drivers\\\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver\n");
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	//name or id // id is not available in page so used name but not working
