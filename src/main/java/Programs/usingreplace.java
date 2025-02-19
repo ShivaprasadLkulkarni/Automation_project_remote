@@ -7,7 +7,7 @@ public class usingreplace {
 		
 		String Result = in.replace(" ", "");
 		
-		System.out.println("original op " + in);
-		System.out.println("edited op " + Result);
+		System.out.println("original ops " + in);
+		System.out.println("edited ops " + Result);
 	}
 }
