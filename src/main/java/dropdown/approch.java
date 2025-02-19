@@ -6,11 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-//Approach
-//Capture all values from drop down list
-//then Create a temp list and sort them > you will have 2 list to compare
-//then compare using equals method
-
 //prequistes
 
 //ArraysList > Collection 
@@ -27,9 +22,9 @@ public class approch {
 public void selectolddropdownvlaues() throws InterruptedException {
 	   WebDriver driver = new ChromeDriver();
 //     Home System  =	
-	   System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+	//   System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
 //     Office System 
-//	   System.setProperty("webdriver.chrome.driver", "/usr/lib64/chromium-browser/chromedriver");	  
+	   System.setProperty("webdriver.chrome.driver", "/usr/lib64/chromium-browser/chromedriver");	  
 		  
 	   driver.get("https://demoqa.com/select-menu");
 	   driver.manage().window().maximize();
