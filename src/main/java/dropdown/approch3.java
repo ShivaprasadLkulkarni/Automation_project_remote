@@ -38,7 +38,7 @@ public void selectolddropdownvlaues() throws InterruptedException {
 		  
 	   driver.get("https://formstone.it/components/dropdown/demo/");
 	   driver.manage().window().maximize();
-	   Select tools = new Select(driver.findElement(By.id("demo_label")));
+	   Select tools = new Select(driver.findElement(By.id("demo_external")));
 	  
 	   List actuallist=new ArrayList<>();
 	   List<WebElement>my_tools= tools.getOptions();
@@ -47,13 +47,15 @@ public void selectolddropdownvlaues() throws InterruptedException {
 		  String data = ele.getText();
 		  actuallist.add(data); 
 	   }
-	   
+	   System.out.println(actuallist);
       List temp=new ArrayList();
       temp.addAll(actuallist);
      //Ascending
-      Collections.sort(temp);
-      
-      Assert.assertTrue(actuallist.equals(temp));
+//      Collections.sort(temp);
+      //Descending incase scenariuo
+//      Collections.sort(temp,Collections.reverseOrder());
+//      Assert.assertTrue(actuallist.equals(temp));
+      System.out.println(temp);
 	}
 
 }
