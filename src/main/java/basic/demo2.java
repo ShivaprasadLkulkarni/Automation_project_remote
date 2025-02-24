@@ -20,9 +20,9 @@ public class demo2 {
 //		   Thread.sleep(2000);
 		   System.out.println("test startes");
 		   WebElement sign_upname = driver.findElement(By.xpath("//*[@id=\"userName\"]"));
-		   sign_upname.sendKeys("215656");
+		   sign_upname.sendKeys("21565sdsd6");
 		   WebElement sign_uppwd = driver.findElement(By.xpath("//*[@id=\"password\"]"));
-		   sign_uppwd.sendKeys("2152152656");
+		   sign_uppwd.sendKeys("21521sdsds52656");
 		   Thread.sleep(2000);
 		   WebElement login_btn = driver.findElement(By.xpath("//*[@id=\"password\"]"));
 		   login_btn.click();
