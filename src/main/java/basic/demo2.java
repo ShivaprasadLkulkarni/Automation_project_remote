@@ -18,7 +18,7 @@ public class demo2 {
 		   driver.get("https://demoqa.com/login");
 		   driver.manage().window().maximize();
 //		   Thread.sleep(2000);
-		   System.out.println("test startes");
+		   System.out.println("test staasrtes");
 		   WebElement sign_upname = driver.findElement(By.xpath("//*[@id=\"userName\"]"));
 		   sign_upname.sendKeys("21565sdsd6");
 		   WebElement sign_uppwd = driver.findElement(By.xpath("//*[@id=\"password\"]"));
