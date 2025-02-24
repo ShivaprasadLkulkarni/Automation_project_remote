@@ -18,7 +18,7 @@ public class demo2 {
 		   driver.get("https://demoqa.com/login");
 		   driver.manage().window().maximize();
 //		   Thread.sleep(2000);
-		   System.out.println("test started");
+		   System.out.println("test startes");
 		   WebElement sign_upname = driver.findElement(By.xpath("//*[@id=\"userName\"]"));
 		   sign_upname.sendKeys("215656");
 		   WebElement sign_uppwd = driver.findElement(By.xpath("//*[@id=\"password\"]"));
@@ -31,7 +31,7 @@ public class demo2 {
 //		  String err_expctd_msg = "Invalid username or password!";
 //		  Assert.assertEquals(err_actual_msg,err_expctd_msg);//typ1
 //		  Assert.assertTrue(err_actual_msg.contains("Invalid username or password!"));//typ2
-		   System.out.println("test completed");
+		   System.out.println("test completss");
 		   
 		   
 		   
